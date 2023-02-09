@@ -1,0 +1,16 @@
+.home{
+    text-align: center;
+    padding-top: 5%;
+    /* background-color: rgb(243, 243, 239); */
+    margin-bottom: 200px;
+}
+
+.img1st{
+    position: relative;
+    left: 30%;
+}
+
+.img2nd{
+    position: relative;
+    right: 30%;
+}

@@ -1,0 +1,32 @@
+.skill_section{
+    background-color: #85ffed;
+    padding: 50px;
+}
+
+.skillImg{
+    width: 33px;
+    height: 22px;
+}
+.skill_container{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #3dc9b3;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    border-radius: 5px;
+}
+
+.skill_item{
+    background-color: white;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.skill_item:hover{
+    position: relative;
+    bottom: 3px;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+}

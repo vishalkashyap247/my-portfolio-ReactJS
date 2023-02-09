@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 
 *{
+    /* background-color: rgb(70, 70, 70); */
     margin: 0;
     padding: 0;
 }
 
-.myDesc{
-    font-family: 'Montserrat', sans-serif;
+li, a, button{
+    font-family: 'Happy Monkey', cursive;
 }
-
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -22,6 +21,9 @@
 
 a{
     text-decoration: none;
+}
+
+.navbar a{
     color: rgb(1, 145, 145);
 }
 
@@ -31,41 +33,24 @@ a{
 
 .nav_link li{
     display: inline-block;
-    padding: 10px;
+    padding: 100px;
     text-decoration: none;
 }
 
-.contactButton{
+.navbar button{
     border: none;
     background-color: burlywood;
     border-radius: 10px;
     padding: 3px 10px;
     cursor: pointer;
-    color: black;
 }
 
-.contactButton:hover{
+.navbar button:hover{
     background-color: rgb(225, 159, 72);
     transition: background-color 0.8s;
 }
 
 
-.footer{
-    text-align: center;
-    margin: 30px;
-}
-
-.colorDedo a{
-    padding: 8px;
-}
-
-.colorDedo a:hover{
-    position: relative;
-    bottom: 2px;
-    color: blueviolet;
-}
-
-.contactmee{
-    background-color: orange;
-    border-radius: 10px;   
+.nav_button{
+    padding: 20px;
 }

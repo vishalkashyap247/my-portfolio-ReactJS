@@ -1,0 +1,30 @@
+.aboutImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.myImg{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.lowTone{
+    color: gray;
+}
+
+.highTone{
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.division{
+    background-color: #75fce8;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.main{
+    padding: 10px;
+}
